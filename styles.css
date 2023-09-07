@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+* {
+        box-sizing: border-box;
+        padding: 0;
+        margin: 0;
+        font-family: "Roboto", sans-serif;
+}
+
+body {
+        background-color: #faf9f6;
+        height: 100vh;
+}
+
+.row {
+        width: 100%;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 12px 24px;
+}
+
+h1 {
+        text-align: center;
+        margin: 30px 0;
+}
+
+.img__wrapper {
+        display: flex;
+        justify-content: center;
+}
+
+img {
+        width: 250px;
+        height: 250px;
+        background-color: greenyellow;
+        border-radius: 8px;
+}
+
+.myInfo {
+        margin-top: 40px;
+        padding: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+p {
+        font-size: 24px;
+}
+
+span {
+        font-weight: bold;
+        font-size: 24px;
+        margin-right: 8px;
+}
+
+span span {
+        margin-right: 0px;
+}
+
+.feature__color {
+        color: #ffb703;
+}
+
+#currentDayOfTheWeek,
+#currentUTCTime,
+#myTrack {
+        display: flex;
+        margin: 8px 0;
+}
+
+a {
+        text-decoration: none;
+        font-weight: bold;
+        color: black;
+}
+
+button {
+        margin-top: 8px;
+        padding: 8px;
+        border-radius: 8px;
+        border: 2px solid #ffb703;
+}
+
+button:hover {
+        background-color: #ffb703;
+        transform: scale(1.1);
+}
+
+@media (max-width: 576px) {
+        h1 {
+                margin: 20px 0;
+        }
+
+        img {
+                width: 200px;
+                height: 200px;
+        }
+
+        .myInfo {
+                margin-top: 20px;
+        }
+
+        #currentDayOfTheWeek,
+        #currentUTCTime,
+        #myTrack {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 8px 0;
+        }
+
+        span,
+        p {
+                font-size: 20px;
+                text-align: center;
+                margin-bottom: 4px;
+        }
+}
