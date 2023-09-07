@@ -4,4 +4,4 @@ Welcome to my Stage One submission for the HNGx Frontend Internship! In this sta
 
 ## Demo
 
-View the live demo [here](https://nelisadludla-stage-1.pages.dev/)
+View the live demo [here](https://nelisadludlastage1.pages.dev/)
